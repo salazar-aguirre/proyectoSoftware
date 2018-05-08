@@ -187,7 +187,7 @@ $f = ActiveForm::begin([
 <div class="form-group">
     <div class="col-sm-offset-5 col-sm-12">
         <?=
-        Html::submitButton(Yii::t('app', 'ENVIAR RESPUESTAS'), ['class' => 'btn btn-success'])
+        Html::submitButton(Yii::t('app', 'Enviar respuestas'), ['class' => 'btn btn-success'])
         ?>            
     </div>        
 </div>
