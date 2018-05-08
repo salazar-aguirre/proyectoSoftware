@@ -13,12 +13,12 @@ use app\models\User;
 /**
  * EmpresaController implements the CRUD actions for Empresa model.
  */
-clas UsuarioController extends Controller {
+//clas UsuarioController extends Controller {
 
     /**
      * @inheritdoc
      */
-    public function behaviors() {
+   // public function behaviors() {
         return [
             'access' => [
                 'class' => AccessControl::className(),
@@ -63,7 +63,7 @@ clas UsuarioController extends Controller {
                 ],
             ],
         ];
-    }
+   // }
 
     /**
      * Lists all Empresa models.
