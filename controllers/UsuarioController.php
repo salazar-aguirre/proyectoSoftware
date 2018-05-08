@@ -13,7 +13,7 @@ use app\models\User;
 /**
  * EmpresaController implements the CRUD actions for Empresa model.
  */
-class UsuarioController extends Controller {
+clas UsuarioController extends Controller {
 
     /**
      * @inheritdoc
