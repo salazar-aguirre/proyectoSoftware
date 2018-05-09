@@ -24,7 +24,6 @@ class Respuesta extends \yii\db\ActiveRecord
     {
         return [
             [['respuesta_usuario'],'required', 'message' => 'Campo requerido.'],
-            ['cedula', 'string','message'=>'Una respuesta sin seleccionar'],
             //[['respuesta_usuario'], 'number', 'message' => 'Escreva só números.'],
         ];
     }

@@ -161,23 +161,7 @@ class SiteController extends Controller {
             $contadorW = 0;
             $contadorL = 0;
 
-            foreach (Yii::$app->request->post('respuestasL') as $key => $value) {
-                if ($value == 0) {
-                    return $this->render("inglesformulario", [
-                                "modeloRespuestaL" => $modeloRespuestaL
-                                    ]
-                    );
-                }
-            }
-            foreach (Yii::$app->request->post('respuestasR') as $key => $value) {
-                
-            }
-            foreach (Yii::$app->request->post('respuestasG') as $key => $value) {
-                
-            }
-            foreach (Yii::$app->request->post('respuestasW') as $key => $value) {
-                
-            }
+            
             foreach (Yii::$app->request->post('respuestasL') as $key => $value) {
                 if (sizeof('respuestasL') != 0) {
                     $respuesta = $this->convertirRespuesta($value);
